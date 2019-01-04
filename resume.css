@@ -109,7 +109,7 @@ p, li
 	left: 150px;
 }
 
-.skills li
+.skills li, .contact li
 {
 	font-size: 75px;
 	display: inline-block;
@@ -118,9 +118,8 @@ p, li
 .contact li a
 {
 	cursor: pointer;
-	font-size: 75px;
-	display: inline-block;
 	color: hsl(60, 0%, 100%);
+	margin: 10px;
 }
 
 .contact li a:active
