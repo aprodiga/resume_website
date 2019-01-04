@@ -1,7 +1,12 @@
 body
 {
-	background: hsl(60, 0%, 5%);
+	/*background: hsl(60, 0%, 5%);*/
 	color: hsl(60, 0%, 100%);
+	background: url("https://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDq54c2fzIHOCn3lMYVa9jok7ORAikMNsh66JZI28uqbnS6o9pdwV2spijhqisbo-5ZyDvWWi5kcPFRhD9U9UBsNabXST2A-MB45upklc-hMu3uXz4T6rec-YQ0vzLxCF-7UcZ-8KJV6O1Ptvd5SP8pEIsLrvjOsPsOfJzqJWAY/") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 h2
@@ -35,8 +40,7 @@ p, li
 	font-size: 50px;
 	text-align: center;
 	/*background: linear-gradient(hsla(60, 0%, 100%, 0), hsla(60, 100%, 50%, .5))*/
-	background-image: url("https://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDq54c2fzIHOCn3lMYVa9jok7ORAikMNsh66JZI28uqbnS6o9pdwV2spijhqisbo-5ZyDvWWi5kcPFRhD9U9UBsNabXST2A-MB45upklc-hMu3uXz4T6rec-YQ0vzLxCF-7UcZ-8KJV6O1Ptvd5SP8pEIsLrvjOsPsOfJzqJWAY/");
-	background-position: 0% 75%;
+	/*background-position: 0% 75%;*/
 }
 
 #name span
