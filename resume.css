@@ -1,3 +1,22 @@
+body
+{
+	background: hsl(60, 0%, 5%);
+	color: hsl(60, 0%, 100%);
+}
+
+h2
+{
+	font-family: Caveat;
+	font-size: 40px;
+	color: hsl(48, 100%, 50%);
+	margin-bottom: 3px;
+}
+/*
+p, li
+{
+	font-family: Caveat;
+}
+*/
 .education, .activities
 {
 	display: flex;
@@ -14,6 +33,10 @@
 {
 	font-family: Caveat;
 	font-size: 50px;
+	text-align: center;
+	/*background: linear-gradient(hsla(60, 0%, 100%, 0), hsla(60, 100%, 50%, .5))*/
+	background-image: url("https://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDq54c2fzIHOCn3lMYVa9jok7ORAikMNsh66JZI28uqbnS6o9pdwV2spijhqisbo-5ZyDvWWi5kcPFRhD9U9UBsNabXST2A-MB45upklc-hMu3uXz4T6rec-YQ0vzLxCF-7UcZ-8KJV6O1Ptvd5SP8pEIsLrvjOsPsOfJzqJWAY/");
+	background-position: 0% 75%;
 }
 
 #name span
@@ -22,3 +45,22 @@
 	font-size: 100px;
 }
 
+.skills li
+{
+	font-size: 75px;
+	display: inline-block;
+}
+
+.contact li a
+{
+	cursor: pointer;
+	font-size: 75px;
+	display: inline-block;
+	color: hsl(60, 0%, 100%);
+}
+
+.contact li a:active
+{
+	position: relative;
+	top: 2px;
+}
