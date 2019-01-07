@@ -120,10 +120,19 @@ p, li
 	cursor: pointer;
 	color: hsl(60, 0%, 100%);
 	margin: 10px;
+	/*
+	margin: 10px 10px 10px 1px;
+	margin-left:-50px
+	*/
 }
 
 .contact li a:active
 {
 	position: relative;
 	top: 2px;
+}
+
+.contact.title
+{
+	padding: 10px;
 }
