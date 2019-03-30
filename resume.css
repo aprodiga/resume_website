@@ -115,6 +115,16 @@ p, li
 	display: inline-block;
 }
 
+.devicon-java-plain-wordmark, .devicon-amazonwebservices-plain-wordmark, .devicon-mysql-plain-wordmark
+{
+	font-size: 85px;
+}
+
+.devicon-vim-plain 
+{
+    font-size: 65px;
+}
+
 .contact li a
 {
 	cursor: pointer;
